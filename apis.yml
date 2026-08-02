@@ -1,7 +1,14 @@
 aid: ubiq
-name: Ubiq
-description: Ubiq is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Ubiq (now NECTURE)
+description: Ubiq is a Vienna, Austria mobility-intelligence company (NECTURE GmbH)
+  that rebranded from UBIQ to NECTURE in 2024. Its "distributed operations" SaaS
+  platform turns fleet data into action for shared-mobility operators, business
+  fleets transitioning to EVs, autonomous fleets, and last-mile delivery -- offering
+  automated rebalancing, predictive charging (Charging as a Service), and airport
+  peak services, alongside StreetCrowd, its decentralized community workforce for
+  fleet operations. Founded in 2015 around city parking optimization, it pivoted
+  to shared-mobility SaaS in 2020 and is backed by Speedinvest among other investors.
+  No public developer portal, API documentation, or client packages were found.
 url: https://raw.githubusercontent.com/api-evangelist/ubiq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +16,73 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-aliases:
+- NECTURE
+x-website: https://www.necture.com/
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.prod.website-files.com/671107acf242aca65721382d/6888b48c4f4731345fb4804a_Icon.png
 tags:
 - Company
+- Mobility
+- Fleet Management
+- Shared Mobility
+- Electric Vehicles
+- Last Mile Delivery
+- Autonomous Vehicles
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ubiq-domain-security.yml
+- name: Website
+  type: Website
+  url: https://www.necture.com/
+- name: About
+  type: About
+  url: https://www.necture.com/about
+- name: Blog
+  type: Blog
+  url: https://www.necture.com/news
+- name: Support
+  type: Support
+  url: https://www.necture.com/contact
+- name: Privacy Policy
+  type: PrivacyPolicy
+  url: https://www.necture.com/legal/privacy-policy
+- name: Imprint
+  type: Imprint
+  url: https://www.necture.com/legal/imprint
+- name: LinkedIn
+  type: LinkedIn
+  url: https://www.linkedin.com/company/necture/
+- name: YouTube
+  type: YouTube
+  url: https://www.youtube.com/@necturecom
+- name: Well-Known Index
+  type: WellKnown
+  url: well-known/ubiq-well-known.yml
+- name: LLMs Txt
+  type: LLMsTxt
+  url: llms/ubiq-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

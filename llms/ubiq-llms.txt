@@ -1,0 +1,20 @@
+# Ubiq (now NECTURE)
+
+> Ubiq is a Vienna, Austria mobility-intelligence company (NECTURE GmbH) that rebranded from UBIQ to NECTURE in 2024. Its distributed-operations SaaS platform turns fleet data into action for shared-mobility operators, EV business fleets, autonomous fleets, and last-mile delivery — automated rebalancing, predictive charging, and airport peak services — alongside StreetCrowd, its decentralized community workforce for fleet operations. No public developer portal, API documentation, or client packages were found as of 2026-07-21.
+
+## Company
+
+- [Website](https://www.necture.com/): NECTURE — Turning Data Into Action
+- [About](https://www.necture.com/about): Team, journey (founded 2015, SaaS pivot 2020, rebrand 2024), guiding principles
+- [News](https://www.necture.com/news): Company news and updates
+- [Contact](https://www.necture.com/contact): Contact NECTURE
+- [StreetCrowd](https://www.streetcrowd.com/): Decentralized community for fleet operations
+
+## Legal
+
+- [Privacy Policy](https://www.necture.com/legal/privacy-policy)
+- [Imprint](https://www.necture.com/legal/imprint): NECTURE GmbH, Papagenogasse 1A, 1060 Vienna, Austria — FN 430551p
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/ubiq/refs/heads/main/apis.yml): APIs.json profile for this company (no public APIs catalogued)
