@@ -2,24 +2,9 @@ generated: '2026-07-21'
 method: searched
 source: https://www.necture.com/
 host: https://www.necture.com
-notes: Ubiq rebranded to NECTURE in 2024; www.necture.com is the only live company
-  host found. No api/docs/developer/status/trust subdomains resolve in DNS. All
-  well-known discovery documents probed returned 404; absence recorded as valid data.
-documents:
-- path: /.well-known/security.txt
-  status: 404
-- path: /.well-known/openid-configuration
-  status: 404
-- path: /.well-known/oauth-authorization-server
-  status: 404
-- path: /.well-known/api-catalog
-  status: 404
-- path: /.well-known/ai-plugin.json
-  status: 404
-- path: /llms.txt
-  status: 404
-- path: /robots.txt
-  status: 200
+notes: Ubiq rebranded to NECTURE in 2024; www.necture.com is the only live company host found. No api/docs/developer/status/trust
+  subdomains resolve in DNS. All well-known discovery documents probed returned 404; absence recorded
+  as valid data.
 hosts_probed_dns:
 - host: api.necture.com
   resolves: false
@@ -35,3 +20,21 @@ hosts_probed_dns:
   resolves: false
 - host: app.necture.com
   resolves: false
+hosts:
+- host: https://www.necture.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
